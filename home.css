@@ -1,35 +1,37 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     font-family: 'Roboto Condensed', sans-serif;
-    
 }
 
-.background{
+body{
     background-image: url("img/imgHearts.png");
-    background-size: cover ;
-    background-color: #8d1233;
-    background-repeat: no-repeat;
+    background-color: #8d1233; 
+    background-repeat: repeat-x;
 }
 
-.title{
+.container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 375px;
+}
+
+header{
     color:#ffffff;
-    font-size: 60px;
+    font-size: 25px;
     text-align: center;
-    font-weight: 700;
     font-style: italic;
-    margin-top: 35px;
     text-shadow: black 0.1em 0.1em 0.2em
 }
 
-.divPhoto1{
+.divPhoto{
     display: inline-block;
     background-color: #ffffff;
     height: 280px;
     width: 200px;
     margin-top: 80px;
-    margin-left: 10px;
+    display: flex;
 }
 
 .imgFirts{
@@ -40,56 +42,17 @@
     width: 180px;
 }
 
+.divtext{
+    display: flex;
+    background-color: #8d1233;
+}
 
 .text{
+    background-color: rgb(141, 18, 51, 0.70);
     display: flex;
     color:#ffffff;
-    font-size: 16px;
-    font-weight: 300;
-    margin-top: -240px;
+    font-size: 13.3px;
+    margin-top: -180px;
     margin-left: 210px;
     text-align: center;
-    padding: 10px;
-}
-
-.divVideoFirts{
-    display: flex;
-    background-color: #ffffff;
-    height: 280px;
-    width: 200px;
-    margin-left: 208px;
-    margin-top: 18px;
-}
-
-.videoFirts{
-    display: flex;
-    height: 250px;
-    margin-top: 6px;
-    margin-left: 30px;
-}
-
-.request{
-    display: flex;
-    color: #fee1eb;
-    font-size: 19px;
-    text-align: center;
-    font-weight: 700;
-    font-style: italic;
-    margin-top: -250px;
-    margin-left: 15px;
-    margin-bottom: 20px;
-}
-
-
-label{
-    color: #ffffff;
-    margin-left: 5px;
-}
-
-.no{
-    font-size: 8px;
-}
-
-.noInput{
-    width: 4px;
 }
