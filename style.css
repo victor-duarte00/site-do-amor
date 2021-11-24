@@ -13,7 +13,7 @@ body{
 
 .container{
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 80px;
     width: 375px;
 }
 
@@ -68,4 +68,47 @@ header{
     color:#ffffff;
     font-size: 13.3px;
     text-align: center;
+}
+
+.request{
+    display: flex;
+    color: #fee1eb;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 190px;
+    margin-left: -9px;
+    margin-bottom: 20px;
+}
+
+
+label{
+    color: #ffffff;
+    margin-left: -3px;
+    background-color: rgb(141, 18, 51, 0.70);
+}
+
+.no{
+    font-size: 8px;
+}
+
+.noInput{
+    width: 4px;
+}
+
+.divVideoFirts{
+    display: flex;
+    background-color: #ffffff;
+    height: 280px;
+    width: 200px;
+    margin-left: 180px;
+    margin-top: -100px;
+}
+
+.videoFirts{
+    display: flex;
+    height: 250px;
+    margin-top: 6px;
+    margin-left: 30px;
 }
