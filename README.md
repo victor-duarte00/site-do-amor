@@ -1,4 +1,4 @@
-# site-do-amor
+# Site-pedido
 
 ## Sobre
 
@@ -20,7 +20,7 @@ Utilizei o JavaScript para poder fazer as transições das imagens que se encont
 
 <h1>Site</h1>
 
-<p> <strong>Link:</strong> https://victor-duarte00.github.io/site-do-amor/ </p>
+<p> <strong>Link:</strong> https://victor-duarte00.github.io/site-pedido/ </p>
 
 <p align="center">
 <img src="https://github.com/victor-duarte00/site-do-amor/blob/master/img/fotoDoSite.jpg" width="450px">
